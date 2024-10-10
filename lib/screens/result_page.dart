@@ -4,7 +4,7 @@ import 'package:bmi_calculator/widgets/reusable_card.dart';
 import 'package:flutter/material.dart';
 
 class ResultPage extends StatelessWidget {
-  const ResultPage({required this.bmiResult, required this.resultText, required this.interpretation} );
+  const ResultPage({super.key, required this.bmiResult, required this.resultText, required this.interpretation} );
 
   final String bmiResult;
   final String resultText;
