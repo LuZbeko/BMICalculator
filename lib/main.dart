@@ -1,4 +1,4 @@
-import 'package:bmi_calculator/input_page.dart';
+import 'screens/input_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,7 +26,7 @@ class _BMICalculatorState extends State<BMICalculator> {
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
             hoverColor: Colors.red, backgroundColor: Colors.amber),
       ),
-      home: InputPage(),
+      home: const InputPage(),
     );
   }
 }
